@@ -3,24 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../global-variable.css" />
     <link rel="stylesheet" href="./home.css" />
+    <link rel="stylesheet" href="../global.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <script src="../../Control/controlHomePage.js" defer></script>
     <title>내 웹사이트</title>
   </head>
   <body>
     <!-- 네비게이션 바 -->
-    <header>
-      <h1>웹사이트 제목</h1>
-      <nav>
-        <ul>
-          <li><a href="#homePage">홈</a></li>
-          <li><a href="#moviePage">영화</a></li>
-          <li><a href="#tvProgramPage">TV 프로그램</a></li>
-          <li><a href="#animationPage">애니메이션</a></li>
+    <header class="header">
+      <h1 class="logo">Movie Info</h1>
+      <nav class="nav-wrapper">
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="#homePage">홈</a></li>
+          <li class="nav-item"><a href="#moviePage">영화</a></li>
+          <li class="nav-item"><a href="#tvProgramPage">TV 프로그램</a></li>
+          <li class="nav-item"><a href="#animationPage">애니메이션</a></li>
         </ul>
       </nav>
     </header>
     <!-- 본문 -->
-    <main>
+    <main class="main">
       <section id="search">
         <h2>검색창</h2>
         <p>궁금한 영화나 TV 프로그램 또는 인물을 검색해보세요!</p>
