@@ -1,6 +1,8 @@
 :root {
   --DarkBlue: 3, 37, 65;
   --LogoColor: 56, 180, 192;
+  --tmdbLightGreen: 30, 213, 169;
+  --tmdbLightBlue: 1, 180, 228;
 }
 
 @font-face {
