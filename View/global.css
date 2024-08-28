@@ -13,5 +13,8 @@ h6 {
 }
 * {
   font-family: "Nanum-angle";
-  font-weight: 600;
+}
+a {
+  text-decoration: none;
+  color: black;
 }
