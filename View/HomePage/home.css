@@ -59,35 +59,17 @@
 }
 
 .search-box {
-  width: 80%;
+  width: 90%;
   height: 100%;
   box-sizing: border-box;
   padding: 0 30px;
-  background-repeat: no-repeat;
   position: relative;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.search-box::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(59, 130, 246, 0.5);
-}
-.search-box::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(59, 130, 246, 0.5);
-}
+
 .search-inner-form {
   margin-top: 30px;
   position: relative;
@@ -143,4 +125,79 @@
   top: 0;
   right: -1px;
   color: #fff;
+}
+
+#trend-section {
+  width: 100%;
+  margin-top: 50px;
+  box-sizing: border-box;
+  padding: 0 5%;
+}
+.section-title {
+  margin-left: 30px;
+}
+.trend-movie-list {
+  width: 100%;
+  padding: 20px 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.item {
+  width: 170px;
+  margin-left: 40px;
+  display: inline-block;
+}
+
+.image {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: var(--imageBorderRadius);
+  width: 100%;
+  min-height: calc(150px * 1.5);
+  height: calc(150px * 1.5);
+  background: #dbdbdb;
+  overflow: hidden;
+}
+
+.image a {
+  display: inline-block;
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  outline: 0;
+}
+
+.content {
+  width: 100%;
+  padding-bottom: 0;
+  padding: 13px 10px 12px;
+  box-sizing: border-box;
+  white-space: normal;
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.content > h2 {
+  line-height: 1.3;
+  font-size: 1em;
+  margin: 0;
+  width: 100%;
+  overflow-wrap: break-word;
+  padding: 0;
+  box-sizing: border-box;
+  white-space: normal;
+}
+.content p {
+  font-size: 0.8em;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.6);
 }
